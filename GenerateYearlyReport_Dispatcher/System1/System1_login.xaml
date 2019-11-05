@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1468,2320</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1468,2360</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>System1 login_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -69,7 +69,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="A sequence to login into ACME System1 using the URL and credentials input arguments. Throws Incorrect Credentials and invokes SendExceptionEmail on wrong credentials.&#xA;&#xA;PreCondition: None&#xA;Post Action: Opens IE system 1 Dashboard if credentials are correct&#xA;" DisplayName="System1_login" sap:VirtualizedContainerService.HintSize="1448,2260" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="A sequence to login into ACME System1 using the URL and credentials input arguments. Throws Incorrect Credentials and invokes SendExceptionEmail on wrong credentials.&#xA;&#xA;PreCondition: Nil&#xA;Post Action: Opens IE system 1 Dashboard if credentials are correct&#xA;" DisplayName="System1_login" sap:VirtualizedContainerService.HintSize="1448,2260" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
